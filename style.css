@@ -1,0 +1,230 @@
+.header{
+    color: darkblue;
+    border: solid;
+    border-color: darkturquoise;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: dodgerblue;
+}
+.camel{
+    border: solid;
+    border-color: #32CD32;
+    border-width: 1cm;
+}
+.camel1{
+    display: flex;
+    justify-content: space-evenly;
+    border-color: brown;
+    border:solid;   
+}
+.camel2{
+    display: flex;
+    justify-content: space-evenly;
+    border-color: brown;
+    border:solid;  
+    font-size:0.5cm; 
+}
+.ch{
+    border: solid;
+    border-color: lawngreen;
+    border-width: 1cm;
+}
+.ch1{
+    display: flex;
+    justify-content: space-evenly;
+    border-color: brown;
+    border:solid;   
+}
+.ch2{
+    display: flex;
+    justify-content: space-evenly;
+    border-color: brown;
+    border:solid;   
+    font-size:0.5cm;
+}
+.cic{
+    border: solid;
+    border-color: #32CD32;
+    border-width: 1cm;
+}
+.cic1{
+    display: flex;
+    justify-content: space-evenly;
+    border-color: brown;
+    border:solid;   
+}
+.cic2{
+    display: flex;
+    justify-content: space-evenly;
+    border-color: brown;
+    border:solid;   
+    font-size:0.5cm;
+}
+.pig{
+    border: solid;
+    border-color: lawngreen;
+    border-width: 1cm;
+}
+.pig1{
+    display: flex;
+    justify-content: space-evenly;
+    border-color: brown;
+    border:solid;   
+}
+.pig2{
+    display: flex;
+    justify-content: space-evenly;
+    border-color: brown;
+    border:solid;   
+    font-size:0.5cm;
+}
+.pan{
+    border: solid;
+    border-color: #32CD32;
+    border-width: 1cm;
+}
+.pan1{
+    display: flex;
+    justify-content: space-evenly;
+    border-color: brown;
+    border:solid;   
+}
+.pan2{
+    display: flex;
+    justify-content: space-evenly;
+    border-color: brown;
+    border:solid;   
+    font-size:0.5cm;
+}
+.be{
+    border: solid;
+    border-color: lawngreen;
+    border-width: 1cm;
+}
+.be1{
+    display: flex;
+    justify-content: space-evenly;
+    border-color: brown;
+    border:solid;   
+}
+.be2{
+    display: flex;
+    justify-content: space-evenly;
+    border-color: brown;
+    border:solid;   
+    font-size:0.5cm;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    border: solid;
+    border-color: brown;
+    background-color: coral;
+    font-family: cursive;
+    font-size:0.5cm;
+    font-style: oblique;
+}
+.main2{
+    display: flex;
+    border: solid;
+    border-color: brown;
+    background-color: coral;
+    font-family: monospace;
+    font-weight: 2000;
+}
+.camel{
+    position: relative;
+}
+.camel p{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    opacity: 0;
+}
+.camel:hover p{
+    opacity: 1;
+}
+.camel:hover img{
+    opacity: 0.33;
+}
+.ch{
+    position: relative;
+}
+.ch p{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    opacity: 0;
+}
+.ch:hover p{
+    opacity: 1;
+}
+.ch:hover img{
+    opacity: 0.33;
+}
+.cic{
+    position: relative;
+}
+.cic p{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    opacity: 0;
+}
+.cic:hover p{
+    opacity: 1;
+}
+.cic:hover img{
+    opacity: 0.33;
+}
+.pan{
+    position: relative;
+}
+.pan p{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    opacity: 0;
+}
+.pan:hover p{
+    opacity: 1;
+}
+.pan:hover img{
+    opacity: 0.33;
+}
+.pig{
+    position: relative;
+}
+.pig p{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    opacity: 0;
+}
+.pig:hover p{
+    opacity: 1;
+}
+.pig:hover img{
+    opacity: 0.33;
+}
+.be{
+    position: relative;
+}
+.be p{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    opacity: 0;
+}
+.be:hover p{
+    opacity: 1;
+}
+.be:hover img{
+    opacity: 0.33;
+}
